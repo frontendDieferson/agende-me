@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body {
+    background-color: #f4f4f4;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+.heroMedia {
+   font-size: 42px;
+   font-weight: 500;
+}
+
+.formAgend {
+    flex: 1;
+    margin: 0 40px;
+}
+.formAgend h1 {
+    margin: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+
+
+.formAgend form {
+    width: 300px;
+    margin: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+   
+    }
+    label {
+    display: block;
+    margin-bottom: 5px;
+    }
+    input, select {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+   
+    }
+    button {
+    background-color: #0099cc;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.1);
+    cursor: pointer;
+    width: 100%;
+    }
+    button:hover {
+    background-color: #0077b3;
+    }
